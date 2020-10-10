@@ -1,0 +1,95 @@
+*{
+    font-size:100%;
+    font-family:'Ubuntu', sans-serif;
+}
+
+body{
+    background-image: radial-gradient(circle, #aec9dc, #acc6e1, #aec2e5, #b3bde7, #bcb8e7);
+}
+
+.container-fluid{
+    display:flex;
+    
+}
+
+.section{
+    flex: 1;
+    margin:auto;
+    width:10%;
+}
+
+#btnImportant{
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+#btnImportant.active{
+    color:#dc3545;
+}
+
+.control{
+    display:block;
+}
+
+.apptitle{
+    border-radius:15px;
+    font-size:100px;
+    border-bottom: 5px solid black;
+}
+
+
+#secForm{
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+    border-radius: 15px;
+    background: #b7c0bc;
+    padding: 15px;
+    width: 200px;
+    height: 450px;
+    background-image: linear-gradient(to right, #eeeeee, #e5e5e5, #dcdcdc, #d4d4d4, #cbcbcb);
+    margin-bottom:30px;
+}
+
+#secForm.hide{
+    display:none;
+}
+
+.card{
+    width:400px;
+    height:450px;
+    display:flex;
+    flex-direction:column;
+    margin-top:30px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.card-header{
+    font-size:25px;
+    text-align:center;
+    height:90px;
+}
+
+.staricon{
+    margin:auto;
+    width:50%;
+}
+
+.hide{
+    display:none;
+}
+
+.deletetask{
+    margin:auto;
+    width:100%
+}
+
+#pendingTasks{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+
